@@ -1,0 +1,77 @@
+# Add an entry, where the key represents a slug.
+# Provide at least a `name` value and optionally `image`, `color` and `description`.
+# Markdown is enabled for `description`, however don't use more than one paragraph (enforced by `>`)
+#
+# Example:
+#
+# ~~~
+# mytag:
+#   name: My Tag
+#   description: >
+#     *My Tag* is an example of how to define a custom tag.
+# ~~~
+
+post:
+  name: All post
+  image: /public/img/3.jpg
+  color: '#949667'
+  description: >
+    This blog is to remember what I studied.
+
+SLAM:
+  name: SLAM
+  image: /public/img/2.jpg
+  color: '#949667'
+  description: >
+    In robotic mapping, simultaneous localization and mapping (SLAM) is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it.
+
+ubuntu:
+  name: Ubuntu
+  image: /public/img/1.jpg
+  color: '#949667'
+  description: >
+    Ubuntu is a Debian-based Linux operating system for personal computers, tablets and smartphones.
+
+software:
+  name: Software
+  image: /public/img/5.jpg
+  color: '#949667'
+  description: >
+    Computer software, or simply software, is that part of a computer system that consists of encoded information or computer instructions, in contrast to the physical hardware from which the system is built.
+
+android:
+  name: Android
+  image: /public/img/2.jpg
+  color: '#949667'
+  description: >
+    Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets.
+
+ios:
+  name: IOS(Swift)
+  image: /public/img/1.jpg
+  color: '#949667'
+  description: >
+    IOS is the mobile operating system developed by Apple Inc.
+
+
+jekyll:
+  name: Jekyll
+  image: /public/img/2.jpg
+  color: '#949667'
+  description: >
+    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+
+math:
+  name: Math
+  image: /public/img/3.jpg
+  color: '#949667'
+  description: >
+    Mathematics is the study of topics such as quantity (numbers), structure, space, and change.
+
+IRAP:
+  name: IRAP
+  image: /public/img/4.jpg
+  color: '#949667'
+  description: >
+    Intelligent Robotic Autonomy and Perception ([IRAP](http://irap.kaist.ac.kr)) Lab focuses on robotics problems in civil and environmental engineering applications. Targeting many hardly accessible or dangerous sites in the environment, we solves for robot autonomy dealing with perceptual sensor data. Main research interest and detailed robotics topics include perception based environment mapping, intelligent sensor fusion, decision making and control of the robotic agents, robotic operation and navigation in GPS-denied enthronements (e.g., underwater, indoor). 
+
